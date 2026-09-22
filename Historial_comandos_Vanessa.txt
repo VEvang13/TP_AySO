@@ -1,0 +1,53 @@
+ssh/keygen
+ssh-keygen
+cat$home/.shh/*.pub
+cat $home/.shh/*.pub
+cat $HOME/.shh/*.pub
+cat ~/.ssh/id_ed25519.pub
+cd
+ssh-keygen
+y
+cat $HOME/.ssh.*pub
+cat ~/.ssh/id_ed25519.pub
+cd
+mkdir repogit
+git clone git@github.com:VEvang13/TP_AySO.git
+cd TP_AySO
+pwd
+ls -l
+cat /etc/os-realease
+cat /etc/os-release
+man grep
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep i Home_url /etc/os-release
+grep -i Home_url /etc/os-release
+whoami
+echo "Usuario=$(whoami)" > datos_usuario.txt
+git add
+git add .
+git config --global user.email "evang.vanessa@gmail.com"
+git config -- global user.name "Vanessa Evangelista"
+git config --global user.name "Vanessa Evangelista"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git status
+git push
+grep "model name" /proc/ cpuinfo | head -n1 >> datos_usuario.txt
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+cat datos_usuario.txt
+git add .
+git commint -m "Añadiendo información de CPU"
+git commit -m "Añadiendo información de CPU"
+git status
+git push
+cat <<EOF >> README.md
+Alumno: Vanessa Evangelista
+División: 315
+Turno: Noche
+EOF
+
+cat README.md
+git add README.md datos_usuario.txt
+git commit -m "ADD: Añadiendo README y datos de usuario"
+git push
+history -a

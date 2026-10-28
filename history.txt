@@ -1,0 +1,34 @@
+   59  lsblk
+   60  sudo pvs
+   61  sudo whoami
+   62  sudo apt update
+   63  sudo apt install lvm2
+   64  lsblk
+   65  sudo pvs
+   66  sudo vgs
+   67  sudo lvs
+   68  df -h
+   69  lsblk
+   70  sudo fdisk /dev/sdb
+   71  sudo fdisk /dev/sdc
+   72  sudo fdisk /dev/sdd
+   73  lsblk
+   74  sudo pvcreate /dev/sdb1 /dev/sdd1
+   75  sudo pvs
+   76  sudo vgcreate datos /dev/sdb1 /dev/sdd1
+   77  sudo vgs
+   78  sudo pvcreate /dev/sdc1
+   79  sudo vgextend datos /dev/sdc1
+   80  sudo pvs
+   81  sudo vgs
+   82  sudo lvcreate -L 1G -n www datos
+   83  sudo lvcreate -L 4G -n salvas datos
+   84  sudo lvs
+   85  sudo mkfs.ext4 /dev/datos/www
+   86  sudo mkfs.ext4 /dev/datos/salvas
+   87  sudo lvestend -L 2G /dev/datos/www
+   88  sudo lvextend -L 2G /dev/datos/www
+   89  sudo resize2fs /dev/datos/www
+   90  sudo pvs
+   91  sudo vgs
+   92  sudo lvs
